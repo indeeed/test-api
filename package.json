@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve src",
-    "dev": "vite",
+    "start": "netlify-lambda serve src",
+    "dev": "vite && netlify-lambda serve src",
     "build": "vite build",
     "preview": "vite preview"
   },
